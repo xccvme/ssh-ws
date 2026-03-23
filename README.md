@@ -32,7 +32,7 @@ Ws-Epro adalah backend WebSocket proxy ringan dan efisien, dibuat untuk menangan
 ### 1. Run Command 
 
 ```
-wget -q https://raw.githubusercontent.com/diah082/Ws-Epro/main/sshws.sh && chmod +x sshws.sh && ./sshws.sh
+wget -q https://raw.githubusercontent.com/xccvme/ssh-ws/main/sshws.sh && chmod +x sshws.sh && ./sshws.sh
 ```
 
 Secara default, service akan berjalan di port `10015` dan meneruskan koneksi ke `127.0.0.1:143`. [Dropbear]
@@ -78,16 +78,10 @@ Gunakan bersama aplikasi VPN/SSH yang mendukung WebSocket. Konfigurasikan koneks
 
 ```
 /usr/bin/
-├── ws                # Entry point aplikasi WebSocket proxy
+├── ws_mod            # Entry point aplikasi WebSocket proxy
 ├── config.conf       # (Opsional) Konfigurasi port/target
 └── README.md         # Dokumentasi
 ```
-
----
-
-## 🧑‍💻 Kontribusi
-
-Kontribusi sangat diterima! Silakan fork repo ini, buat branch baru, dan ajukan pull request.
 
 ---
 
@@ -99,5 +93,8 @@ Proyek ini menggunakan lisensi MIT.
 
 ## 🙏 Kredit
 
-Dibuat dengan ❤️ oleh [Diah082](https://github.com/Diah082)  
+Maaf ini Modifikasi Membuang bug dan BackDoor Asli🤗
 Terinspirasi oleh komunitas VPN & SSH tunneling Indonesia.
+
+Terimakasih:
+[Diah082](https://github.com/Diah082)
