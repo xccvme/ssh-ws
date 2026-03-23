@@ -2,8 +2,8 @@
 rm -- "$0"
 systemctl stop ws
 curl -sS ipv4.icanhazip.com > /usr/bin/.ipvps
-REPO="https://raw.githubusercontent.com/Diah082/Ws-Epro/refs/heads/main/"
-wget -O /usr/bin/ws "${REPO}ws"
+REPO="https://raw.githubusercontent.com/xccvme/ssh-ws/main/"
+wget -O /usr/bin/ws "${REPO}ws_mod2"
 wget -O /usr/bin/config.conf "${REPO}config.conf"
 wget -O /etc/systemd/system/ws.service "${REPO}ws.service"
 chmod +x /usr/bin/ws
