@@ -1,6 +1,6 @@
 [Unit]
-Description=WebSocket E-Pro V2.2 By Newbie Store
-Documentation=https://github.com/diah082
+Description=WebSocket E-Pro V2.6.6
+Documentation=https://github.com/xccvme
 After=syslog.target network-online.target
 
 [Service]
@@ -14,4 +14,3 @@ LimitNOFILE=65535
 
 [Install]
 WantedBy=multi-user.target
-
