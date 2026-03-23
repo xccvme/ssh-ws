@@ -93,7 +93,7 @@ Proyek ini menggunakan lisensi MIT.
 
 ## 🙏 Kredit
 
-Maaf ini Modifikasi Membuang bug dan BackDoor Asli🤗
+Maaf ini Modifikasi Membuang bug dan BackDoor Asli🤗.
 Terinspirasi oleh komunitas VPN & SSH tunneling Indonesia.
 
 Terimakasih:
